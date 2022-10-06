@@ -29,29 +29,31 @@
             </div>
         </section>
 
-        <section class="sticky-nav">
+        <nav class="sticky-nav">
             <div class="sticky-menu">
                 <div class="container">
+                    <span></span>
                     <ul>
-                        <li><a href="">commitment</a></li>
-                        <li><a href="">approach</a></li>
-                        <li><a href="">testimonials</a></li>
-                        <li><a href="">milestones</a></li>
-                        <li><a href="">join us!</a></li>
+                        <li><a data-text="commitment" href="#commitment">commitment</a></li>
+                        <li><a data-text="approach" href="#approach">approach</a></li>
+                        <li><a data-text="testimonials" href="#testimonials">testimonials</a></li>
+                        <li><a data-text="milestones" href="#milestones">milestones</a></li>
+                        <li><a data-text="join us!" href="#join">join us!</a></li>
                     </ul>
+                    <a class="tglBtn" href=""><img src="./assets/images/icons/angle-small-down.svg" alt=""></a>
                 </div>
             </div>
-        </section>
+        </nav>
 
-        <section class="col-3-box">
+        <section id="commitment" class="col-3-box">
             <div class="container">
-                <h3>Commitment</h3>
+                <h3 class="text-center">Commitment</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellendus in animi, cum blanditiis vel eos qui iusto temporibus sed distinctio, nostrum ex, eaque ea dolor labore accusamus cumque iste. Excepturi deleniti, doloremque dolor, eos illum voluptates consequuntur amet modi nesciunt provident fugiat ea laboriosam.</p>
                 <div class="col-3-wrap">
                     <div class="col-3">
                         <div class="img-box">
                             <img src="https://dummyimage.com/340x370/6de0f2/0b0d0d.png" alt="">
-                            <h4>Diversity</h4>
+                            <span>Diversity</span>
                         </div>
                         
                         <p>We measure diversity by the participation of historically disadvantaged groups.</p>
@@ -59,7 +61,7 @@
                     <div class="col-3">
                         <div class="img-box">
                             <img src="https://dummyimage.com/340x370/6de0f2/0b0d0d.png" alt="">
-                            <h4>Equity</h4>
+                            <span>Equity</span>
                         </div>
                         
                         <p>We define and measure equity as fair treatment in our compensation and talent development processes.</p>
@@ -67,7 +69,7 @@
                     <div class="col-3">
                         <div class="img-box">
                             <img src="https://dummyimage.com/340x370/6de0f2/0b0d0d.png" alt="">
-                            <h4>Inclusion</h4>
+                            <span>Inclusion</span>
                         </div>
                         
                         <p>We measure inclusion and belonging in our quarterly engagement pulses.</p>
@@ -76,12 +78,12 @@
             </div>
         </section>
         
-        <section class="testimonials">
+        <section id="testimonials" class="testimonials">
             <div class="container">
-                <h3>Testimonials</h3>
+                <h3 class="text-center">Testimonials</h3>
                 <div class="row-wrap">
                     <div class="img-box">
-                        <span style="background-color: hsl(41deg 100% 48%);"></span>
+                        <span class="orange"></span>
                         <img src="https://dummyimage.com/250/1ce389/0b0d0d.png" alt="">
                     </div>
                     <div class="testimonial">
@@ -91,7 +93,7 @@
                 </div>
                 <div class="row-wrap">
                     <div class="img-box">
-                        <span style="background-color: hsl(205deg 100% 24%);"></span>
+                        <span class="blue"></span>
                         <img src="https://dummyimage.com/250/1ce389/0b0d0d.png" alt="">
                     </div>
                     <div class="testimonial">
@@ -101,7 +103,7 @@
                 </div>
                 <div class="row-wrap">
                     <div class="img-box">
-                        <span style="background-color: hsl(18deg 100% 50%);"></span>
+                        <span class="red"></span>
                         <img src="https://dummyimage.com/250/1ce389/0b0d0d.png" alt="">
                     </div>
                     <div class="testimonial">
@@ -112,10 +114,12 @@
             </div>
         </section>
         
-        <section class="content-slider">
+        <!-- Set Margin to .content > * for Responsive Breakpoints -->
+        <section id="milestones" class="content-slider">
             <div class="container">
                 <div class="content">
-                    <h3>Milestones</h3>
+                    
+                    <h3 class="text-white">Milestones</h3>
                     <h2>What We've Achieved</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptas laboriosam soluta illo quod voluptatibus rem. Esse vel rem quis culpa? Cum debitis aliquam voluptate. Cumque animi soluta deserunt eos.</p>
                 </div>
@@ -146,12 +150,12 @@
             </div>
         </section>
 
-        <section class="footer-cta">
+        <section id="join" class="footer-cta">
             <div class="container">
                     <div class="content">
-                        <h2>We are committed to each other's success.<br/> Interested in joining us?</h2>
+                        <h2 class="text-white">We are committed to each other's success.<br/> Interested in joining us?</h2>
                     </div>
-                    <div class="f-cta">
+                    <div class="btn-wrap">
                         <a href="#" class="btn cta">Explore Oppurtunities</a>
                         <a href="#" class="btn cta">Let's Build</a>
                     </div>
